@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - Magic Books</title>
+  <style>
+    body {
+      background-color: lightblue;
+      font-family: sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .login-container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: gray;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid lightgray;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: lightblue;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: deepskyblue;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <h2>Login</h2>
+    <form>
+      <input type="text" placeholder="Username" id="username" required>
+      <input type="password" placeholder="Password" id="password" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
